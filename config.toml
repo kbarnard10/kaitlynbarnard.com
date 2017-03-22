@@ -1,0 +1,16 @@
+buildDrafts = true
+languageCode = "en-us"
+title = "Kaitlyn Barnard"
+baseURL = "https://www.kaitlynbarnard.com/"
+theme = "hugo-cactus-theme"
+watch = true
+style = "green"
+
+[Params]
+  Author = "Kaitlyn Barnard"
+  Email = "kaitlynbarnard10@gmail.com"
+
+[[Params.menu]]
+  Name = "About"
+  Url = "/about"
+  weight = 4
