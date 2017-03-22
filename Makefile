@@ -4,12 +4,12 @@
 
 build:
 	rm -rf public
-	bower install
+	#bower install
 	hugo
 
 develop:
 	rm -rf public
-	bower install
+	#bower install
 	hugo server --watch
 
 deploy: build
