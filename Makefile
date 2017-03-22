@@ -5,7 +5,7 @@
 build:
 	rm -rf public
 	#bower install
-	hugo
+	-hugo
 
 develop:
 	rm -rf public
